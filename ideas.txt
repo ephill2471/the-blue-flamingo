@@ -1,0 +1,36 @@
+Home Page:
+
+  Header:
+    Restaurant Logo
+    Restaurant Name
+
+  Main:
+    Carousel
+    Hours: Breakfast - Sunday only, no lunch just snacks, Lunch Sat (it's gameday), Dinner Tu-Sun
+    Directions
+
+  Footer:
+    Phone (for texting only & what can I bring) - form?
+    Copyright
+
+
+Menu:
+  Shrimp and Grits
+  Chicken Marsala
+  Lasagna
+  Italian Sausage
+  Beef Tenderloin
+  Whole BBQ Chicken
+  Ribs
+  Pulled pork tacos
+  Shrimp tacos
+  Chimichurri skirt steak
+  Chicken and Black bean nachos
+  Brutus Salad
+  Cobb Salad
+  Caesar Salad (add chicken)
+  Greek Salad
+  Gyros with rosemary garlic potatoes
+  Ahi tuna salad
+  Waffles
+  Rigatoni with spicy marinara and Italian sausage

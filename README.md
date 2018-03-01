@@ -1,1 +1,1 @@
-# the-blue-flamingo
+# responsive-grid-template

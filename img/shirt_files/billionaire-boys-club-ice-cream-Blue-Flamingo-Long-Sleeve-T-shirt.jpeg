@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>URL Blocked</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<style>
+#content{border:3px solid#aaa;background-color:#fff;margin:40;padding:40;font-family:Tahoma,Helvetica,Arial,sans-serif;font-size:12px;}
+  h1{font-size:25px;font-weight:bold;color:#FF8000;}
+	h2{font-size:20px;font-weight:bold;color:red;}
+	h3{font-size:18px;font-weight:bold;color:#0B6121;}
+   b{font-size:14px;font-weight:bold;color:#0B6121;}
+	
+</style>
+</head>
+<body bgcolor="#BDBDBD">
+<table width=600 align=center>
+<tr>
+<td>
+<div id="content">
+<h1 align=center><img src="http://www.greenville.k12.sc.us/images/webpage.jpg" vspace="12" width="400" height="100" name="WSLogo" alt="Greenville County School District"><br></h1>
+
+<h2 align=center>Website Blocked</h2>
+<p align=center><h3 align=center>Our Internet use policy restricts access to this webpage at this time.<br><br> </h3>
+<p align=center><b>User: gcsd\ephill2471 </p>
+<p align=center><b>Category: personal-sites-and-blogs </p>
+<p align=center>URL: cdna.lystit.com/photos/tessuti/e6d13b9d/billionaire-boys-club-ice-cream-Blue-Flamingo-Long-Sleeve-T-shirt.jpeg</b> </p>
+ <h3 align=center>
+If you are a staff member and getting Student Block messages, please log out of your email and log back in.
+Most of the time, this occurs when people dock or undock their laptops.
+</h3>
+<h2 align=center><p align=center id="unblockme"></p></h2>
+      
+        <script type="text/javascript">
+            var cat = "cdna.lystit.com/photos/tessuti/e6d13b9d/billionaire-boys-club-ice-cream-Blue-Flamingo-Long-Sleeve-T-shirt.jpeg";
+            var msg = "";
+            msg = "To request this web site to be unblocked click <a href='";
+            msg = msg + "http://infoweb.greenville.k12.sc.us/webblock/Default.aspx?U=";
+            msg = msg + encodeURIComponent("gcsd\ephill2471") + "&C=personal-sites-and-blogs&A=cdna.lystit.com/photos/tessuti/e6d13b9d/billionaire-boys-club-ice-cream-Blue-Flamingo-Long-Sleeve-T-shirt.jpeg";
+            msg = msg + "'>HERE</a>";
+            document.getElementById('unblockme').innerHTML = msg; 
+        </script>
+
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

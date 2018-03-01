@@ -1,0 +1,355 @@
+/* Color Palette
+  White: #ffffff;
+  Black: #000000;
+  Medium Gray: #999999;
+  Light Gray: #dddddd;
+  Light blue: #99ffff;
+*/
+
+
+/*********** Begin Layout Styles ***********/
+body {
+  background-image: url("../img/flamingo.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px; /* disable this line if you want full-width layouts */
+  background-color: #ffffff;
+}
+
+header, main, footer {
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header{
+  background-color: #F8EB5F;
+  border: 12px dotted #AEE0E1;
+}
+main{
+  border: 12px dotted #F8A152;
+}
+
+footer{
+  background-color: #FFC0B7;
+  border: 12px dotted #ADDFE0;
+}
+
+/* phones (base layout is mobile-first) */
+header {
+  /*border: 3px solid #990000; /* disable this line once layout works */
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "restaurant"
+    "hours";
+}
+
+main {
+  /*border: 3px solid #009900; /* disable this line once layout works */
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "carousel"
+    "menu"
+    "map"
+    "gifts";
+}
+
+footer {
+  /*border: 3px solid #000099; /* disable this line once layout works */
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "social"
+    "contact"
+    "credits";
+}
+
+/* tablets and small laptops */
+@media (min-width: 600px) {
+
+  header {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "restaurant hours";
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "menu map"
+      "gifts gifts"
+      "carousel carousel";
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "social contact"
+    "credits credits";
+  }
+}
+
+/* desktops */
+@media (min-width: 900px) {
+  header {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "restaurant hours";
+  }
+    main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "carousel carousel carousel"
+      "map menu menu"
+      "gifts gifts gifts";
+}
+
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "social contact credits";
+  }
+}
+
+div {
+/*border: 1px solid #999999;  disable this line once layout works */
+/*text-align: center; /* disable this line once layout works */
+}
+
+main div {
+/*min-height: 80px; /* disable this line once layout works */
+}
+
+div#hours {
+  grid-area: hours;
+}
+
+div#restaurant {
+  grid-area: restaurant;
+}
+
+div#carousel {
+  grid-area: carousel;
+  overflow: hidden;
+}
+
+div#menu {
+  grid-area: menu;
+  border: 2px solid #F9DA06;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 20px;
+}
+
+div#map {
+  grid-area: map;
+  border: 2px solid #F05E5F;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div#gifts {
+  grid-area: gifts;
+}
+
+div#social {
+  grid-area: social;
+  text-align: center;
+}
+
+div#contact {
+  grid-area: contact;
+  text-align: left;
+}
+
+div#credits {
+  grid-area: credits;
+}
+/*********** End Layout Styles ***********/
+
+
+/*********** Begin Content Styles ***********/
+
+/* Headings */
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 65px;
+  color: #F05E5F;
+}
+
+h2 {
+
+}
+
+h3 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #5FC5CA;
+}
+
+h4 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 22px;
+  color: #F87A25;
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+/* Paragraphs and lists */
+
+p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+ol {
+
+}
+
+ul {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+
+}
+
+#gifts ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+#gifts li {
+  width: 300px;
+}
+
+/* tables */
+
+table {
+
+}
+
+caption {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+/* images */
+img {
+  max-width: 100%;
+}
+
+img.right{
+  float: right;
+  margin-bottom: 20px;
+}
+
+img.left{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.gift {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+img.gift:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/* links */
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+#social a {
+  text-decoration: none;
+}
+
+#social img {
+  margin: 0 10px;
+}
+
+/* forms */
+
+
+
+/*********** End Content Styles ***********/

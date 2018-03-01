@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Blue Flamingo Restaurant</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Questrial|Shadows+Into+Light+Two|Grand+Hotel" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="restaurant">
+        <h1>
+          <img src="img/flamingoblue.png">
+          The Blue Flamingo
+        </h1>
+      </div>
+      <div id="hours">
+        <h3>Hours</h3>
+        <ul>
+          <li>Weekdays- 10:00am - 11:00pm</li>
+          <li>Saturday- 10:00am - 12:00am</li>
+          <li>Sunday- 9:00am - 11:00pm</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div id="carousel">
+        <div class="owl-carousel owl-theme">
+          <div><img src="img/key_lime.jpg" alt="Key Lime Pie"></div>
+          <div><img src="img/oysters.jpg" alt="Raw Oysters"></div>
+          <div><img src="img/salad.jpg" alt="House Salad"></div>
+          <div><img src="img/shellfish.jpg" alt="Shellfish Pasta"></div>
+          <div><img src="img/shrimp.jpg" alt="Barbeque Shrimp"></div>
+        </div>
+      </div>
+      <div id="menu">
+        <h3>Menu</h3>
+        <p>Born and raised in Key West, Florida. All of our meals are homemaid and follow keys tradition. We love every single one of our meals and we hope you love them too. Click here for the menu.</p>
+      </div>
+      <div id="map">
+        <h3>Map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.235245921803!2d-81.79962098500333!3d24.546531484203022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d1b6dc4e08c339%3A0xf94b45644a592e51!2sSouthernmost+Point!5e0!3m2!1sen!2sus!4v1518450576660" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div id="gifts">
+        <h3>Gift Shop</h3>
+        <ul>
+          <li>
+            <h4>Tank Top - $20</h4>
+            <img class ="gift" src="img/tanktop.jpg" alt="Tank top">
+          </li>
+          <li>
+            <h4>Sun Glasses - $15</h4>
+            <img class="gift" src="img/sunglasses.jpg" alt="Sunglasses">
+          </li>
+          <li>
+            <h4>Towel - $10</h4>
+            <img class="gift" src="img/towel.jpg" alt="Towel">
+          </li>
+          <li>
+            <h4>Sweater - $30</h4>
+            <img class="gift" src="img/sweater.jpg" alt="Sweater">
+          </li>
+          <li>
+            <h4>Bottle holder - $10 </h4>
+            <img class="gift" src="img/bottle.jpg" alt="Bottle Holder">
+          </li>
+          <li>
+            <h4>Tervis - $15</h4>
+            <img class="gift"src="img/tervis.jpg" alt="Tervis">
+          </li>
+          <li>
+            <h4>Blue Flamingo Sauce - $8</h4>
+            <img class="gift" src="img/sauce.jpg" alt="Blue Flamingo Sauce">
+          </li>
+          <li>
+            <h4>Shot Glasses - $5 per glass</h4>
+            <img class="gift" src="img/shot2.jpg" alt="Shot Glasses">
+          </li>
+          <li>
+            <h4>Shorts - $15</h4>
+            <img class="gift" src="img/shorts2.jpg" alt="Shorts">
+          </li>
+          <li>
+            <h4>Socks - $5</h4>
+            <img class="gift"src="img/socks.jpg" alt="Socks">
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div id="social">
+        <h3>Social Media</h3>
+        <a href="https://www.instagram.com/theblueflamingorestaurant/">
+          <img src="img/instagramlogo.png" alt="Instagram Icon">
+        </a>
+
+        <img src="img/facebooklogo.png" alt="Facebook Icon">
+      </div>
+      <div id="contact">
+          <h3 class="center">Contact Us</h3>
+            <form class="pure-form pure-form-stacked" action="thanks.html" method="post">
+              <fieldset>
+              <legend>Personal Information</legend>
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name">
+
+              <label for="email">Email:</label>
+              <input id="email" type="text" email="email">
+
+              <label for="comments">Comments:</label>
+              <input id="Comments"type="text" name="comments"><br>
+
+              <input type="submit" value="Submit">
+             </fieldset>
+
+      </div>
+      <div id="credits">
+        <h3>Credits</h3>
+        <p> This site is fictacious and is not an acutal website.</p>
+        <p> Created by: CinderElla</p>
+      </div>
+    </footer>
+
+  </div>
+  <!-- first load jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- owl carousel stuff -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            dots: true,
+            items: 1,
+            loop: true,
+            margin: 20,
+            nav: false
+        })
+      });
+    </script>
+</body>
+</html>
