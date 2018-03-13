@@ -570,19 +570,23 @@ iframe {
 /* links */
 
 a:link {
-
+  color: #F05E5F;
 }
 
 a:visited {
-
+  color: #AEE0E1;
 }
 
 a:hover {
-
+color: #F05E5F;
 }
 
 a:active {
+color: #AEE0E1;
+}
 
+a.logo {
+  text-decoration: none;
 }
 
 #social a {
