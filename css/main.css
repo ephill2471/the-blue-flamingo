@@ -127,6 +127,9 @@ footer {
     grid-template-areas:
     "social contact credits";
   }
+  div#page-name {
+    grid-column: span 3;
+  }
 }
 
 div {
@@ -198,7 +201,10 @@ h1 {
 }
 
 h2 {
-
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Grand Hotel', cursive;
+  color: #5FC5CA;
 }
 
 h3 {
@@ -208,11 +214,240 @@ h3 {
   color: #5FC5CA;
 }
 
+h3.appetizers {
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+
+h3.drinks {
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+
+h3.soups {
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+h3.dinner {
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+
+h3.lunch {
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+
+h3.desserts{
+  text-align: center;
+  font-size: 35px;
+  color: #FFC0B7;
+}
+
 h4 {
   font-family: 'Shadows Into Light Two', cursive;
   font-size: 22px;
   color: #F87A25;
+}
+h4.loaded-nachos {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
 
+h4.conch-fritters {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.raw-oysters {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.coco-bites {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.smoked-wahoo-dip {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.alligator {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.mango-colada {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.soda {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.pina-colada {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.signature-margarita {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.anglers-may {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.berry-mojito {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.conch-chowder {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.she-crab-soup {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.house-salad {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.island-salad {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.tuna-island {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.fish-chips {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.shell-pasta {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.grouper-sandwich {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.filet-mignon {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.florida-lobster {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.barbeque-shrimp {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.chicken-sandwich {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.seafood-basket {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.key-lime {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.chocolate-cake {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
+}
+
+h4.berry-pie {
+  font-family: 'Crushed', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #AEE0E1;
 }
 
 h5 {
@@ -231,6 +466,12 @@ p {
   text-align: center;
 }
 
+p.dish-description {
+  font-family: 'Questrial', sans-serif;
+  font-size: 22px;
+  color: #000000;
+}
+
 ol {
 
 }
@@ -238,7 +479,11 @@ ol {
 ul {
   font-family: 'Questrial', sans-serif;
   font-size: 18px;
-
+}
+span.price{
+  color: #F05E5F;
+  font-style: italic;
+  font-size: 30px;
 }
 
 #gifts ul {
